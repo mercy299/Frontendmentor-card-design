@@ -1,0 +1,72 @@
+body{
+    margin: auto;
+    padding: 0;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Karla', sans-serif;
+    width: 55%;
+    /* border: 1px solid red; */
+    background-color: rgb(204, 223, 241);
+}
+.card{
+    border-radius: 8px;
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: auto;
+}
+.white-card{
+    background-color: rgb(255, 255, 255);
+    padding: 1em;
+    border-radius:  19px 19px 0 0;
+    /* border: 1px solid red; */
+    /* width: auto; */
+}
+.white-card h3{
+    color: hsl(179, 62%, 43%);
+}
+.yellow-text{
+    color: hsl(71, 73%, 54%);
+}
+.grey-text{
+    color:rgb(171, 161, 161);
+}
+.both-boxes{
+    /* box-sizing: border-box; */
+    display: grid;
+    grid-template-columns: auto auto;
+    /* margin: 0%; */
+}
+.teal-card{
+    background-color: hsl(179, 62%, 43%);
+    padding: 2em;
+    margin: 0;
+    color: white;
+    border-radius: 0 0 0 19px ;
+}
+.price{
+    font-size: 29px;
+    color: white;
+}
+.price-line{
+    color: rgb(216, 216, 216);
+}
+.cyan-card{
+    background-color: turquoise;
+    padding:  1em 2em;
+    /* margin: 0%; */
+    color: white;
+    border-radius: 0 0 19px ;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+button{
+    padding: 0.6rem 5rem ;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    border-radius: 6px;
+    box-shadow: none;
+    border-color:hsl(71, 73%, 54%) ;
+    /* font-size: 16px; */
+    /* max-width: 170px; */
+}
