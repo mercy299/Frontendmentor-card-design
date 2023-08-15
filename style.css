@@ -9,13 +9,13 @@ body{
 }
 .card{
     border-radius: 8px;
-    margin: 190px auto;
+    margin: 200px auto;
     display: grid;
     grid-template-columns: auto;
 }
 .white-card{
     background-color: rgb(255, 255, 255);
-    padding: 1em;
+    padding: 2em;
     border-radius:  19px 19px 0 0;
     /* border: 1px solid red; */
     /* width: auto; */
@@ -37,7 +37,7 @@ body{
 }
 .teal-card{
     background-color: hsl(179, 62%, 43%);
-    padding: 2em;
+    padding: 1em 3em;
     margin: 0;
     color: white;
     border-radius: 0 0 0 19px ;
@@ -51,7 +51,7 @@ body{
 }
 .cyan-card{
     background-color: turquoise;
-    padding:  1em 2em;
+    padding:  1em 3em;
     /* margin: 0%; */
     color: white;
     border-radius: 0 0 19px ;
